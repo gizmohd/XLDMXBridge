@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using Gtk;
 
-namespace XlightsDMXBridge
+namespace XlightsACNBridge
 {
 	class MainClass
 	{

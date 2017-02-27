@@ -50,6 +50,13 @@
     <Compile Include="Extensions\HashingExtensions.cs" />
     <Compile Include="Models\AuthenticationResult.cs" />
     <Compile Include="Models\QueryResults.cs" />
+    <Compile Include="EventSocket\EventClient.cs" />
+    <Compile Include="SACN\BigEndianBinaryReader.cs" />
+    <Compile Include="SACN\BigEndianBinaryWriter.cs" />
+    <Compile Include="SACN\SACNCommon.cs" />
+    <Compile Include="SACN\SACNListener.cs" />
+    <Compile Include="SACN\SACNPacket.cs" />
+    <Compile Include="SACN\SACNSender.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -59,6 +66,8 @@
     <Folder Include="Serializer\" />
     <Folder Include="Extensions\" />
     <Folder Include="Models\" />
+    <Folder Include="EventSocket\" />
+    <Folder Include="SACN\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

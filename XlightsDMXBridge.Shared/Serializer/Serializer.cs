@@ -8,7 +8,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace XlightsDMXBridge.Shared
+namespace XlightsACNBridge.Shared
 {
     public static class Serializer
     {

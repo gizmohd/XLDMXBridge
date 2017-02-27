@@ -1,5 +1,5 @@
-﻿using System;
-namespace XlightsDMXBridge.Shared
+using System;
+namespace XlightsACNBridge.Shared
 {
 	public class MyClass
 	{

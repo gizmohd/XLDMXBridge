@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using Newtonsoft.Json;
 
-namespace XlightsDMXBridge.Shared
+namespace XlightsACNBridge.Shared
 {
 	public class AuthenticationResult
 	{

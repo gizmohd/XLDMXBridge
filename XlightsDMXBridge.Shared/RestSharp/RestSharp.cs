@@ -1,4 +1,4 @@
-﻿using log4net;
+using log4net;
 using Newtonsoft.Json;
 using RestSharp;
 using RestSharp.Serializers;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace XlightsDMXBridge.Shared
+namespace XlightsACNBridge.Shared
 {
     public static class RestSharp
     {

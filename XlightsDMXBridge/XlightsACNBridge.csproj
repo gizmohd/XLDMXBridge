@@ -69,13 +69,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XlightsDMXBridge.Shared\XlightsDMXBridge.Shared.csproj">
-      <Project>{FAF31D1B-755A-4291-BC2F-9B1E3792098A}</Project>
-      <Name>XlightsDMXBridge.Shared</Name>
-    </ProjectReference>
+    <Folder Include="Api\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Api\" />
+    <ProjectReference Include="..\XlightsDMXBridge.Shared\XlightsACNBridge.Shared.csproj">
+      <Project>{FAF31D1B-755A-4291-BC2F-9B1E3792098A}</Project>
+      <Name>XlightsACNBridge.Shared</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,9 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XlightsDMXBridge", "XlightsDMXBridge\XlightsDMXBridge.csproj", "{ED954FC4-FEAC-444C-B79B-BCDFB5B2A4AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XlightsACNBridge", "XlightsDMXBridge\XlightsACNBridge.csproj", "{ED954FC4-FEAC-444C-B79B-BCDFB5B2A4AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XlightsDMXBridge.Shared", "XlightsDMXBridge.Shared\XlightsDMXBridge.Shared.csproj", "{FAF31D1B-755A-4291-BC2F-9B1E3792098A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XlightsACNBridge.Shared", "XlightsDMXBridge.Shared\XlightsACNBridge.Shared.csproj", "{FAF31D1B-755A-4291-BC2F-9B1E3792098A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
