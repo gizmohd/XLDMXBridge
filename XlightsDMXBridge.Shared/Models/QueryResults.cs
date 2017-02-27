@@ -32,8 +32,18 @@
 				set;
 			}
 		}
+	public class GetButtonsResult
+	{
 
-		public class GetSchedulesResult
+		[JsonProperty("buttons", Required = Required.Default)]
+		public List<string> Buttons
+		{
+			get;
+			set;
+		}
+	}
+
+	public class GetSchedulesResult
 		{
 			
 			[JsonProperty("schedules", Required = Required.Default)]

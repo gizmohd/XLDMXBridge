@@ -16,7 +16,8 @@ namespace XlightsDMXBridge
 			//api.GetMatrices();
 			//var sched = api.GetPlayListSchedules(pl.Playlists[0].Name);
 			//api.GetPlayListSchedule(pl.Playlists[0].Name,sched.Schedules[0].Name);
-			api.GetPlayingStatus();
+			//api.GetPlayingStatus();
+			api.GetButtons();
 //Application.Init();
 //			MainWindow win = new MainWindow();
 //			win.Show();
