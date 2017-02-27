@@ -62,7 +62,8 @@
     <Compile Include="gtk-gui\MainWindow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="XScheduleAPI.cs" />
+    <Compile Include="Api\XScheduleAPI.cs" />
+    <Compile Include="Api\XScheduleCommands.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -72,6 +73,9 @@
       <Project>{FAF31D1B-755A-4291-BC2F-9B1E3792098A}</Project>
       <Name>XlightsDMXBridge.Shared</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Api\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
