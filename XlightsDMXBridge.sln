@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XlightsDMXBridge", "XlightsDMXBridge\XlightsDMXBridge.csproj", "{ED954FC4-FEAC-444C-B79B-BCDFB5B2A4AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XlightsDMXBridge.Shared", "XlightsDMXBridge.Shared\XlightsDMXBridge.Shared.csproj", "{FAF31D1B-755A-4291-BC2F-9B1E3792098A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED954FC4-FEAC-444C-B79B-BCDFB5B2A4AC}.Debug|x86.ActiveCfg = Debug|x86
+		{ED954FC4-FEAC-444C-B79B-BCDFB5B2A4AC}.Debug|x86.Build.0 = Debug|x86
+		{ED954FC4-FEAC-444C-B79B-BCDFB5B2A4AC}.Release|x86.ActiveCfg = Release|x86
+		{ED954FC4-FEAC-444C-B79B-BCDFB5B2A4AC}.Release|x86.Build.0 = Release|x86
+		{FAF31D1B-755A-4291-BC2F-9B1E3792098A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FAF31D1B-755A-4291-BC2F-9B1E3792098A}.Debug|x86.Build.0 = Debug|Any CPU
+		{FAF31D1B-755A-4291-BC2F-9B1E3792098A}.Release|x86.ActiveCfg = Release|Any CPU
+		{FAF31D1B-755A-4291-BC2F-9B1E3792098A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
